@@ -1,6 +1,7 @@
 #Android generated
 bin
 gen
+lib/build
 
 #Eclipse
 .project
