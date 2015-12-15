@@ -705,7 +705,13 @@ public class TwoWayGridView extends TwoWayAbsListView {
 		}
 	}
 
+	public int getNumRows() {
+		return mRequestedNumRows;
+	}
 
+	public int getNumColumns() {
+		return mRequestedNumColumns;
+	}
 
 	@Override
 	protected int computeVerticalScrollExtent() {
