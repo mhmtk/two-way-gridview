@@ -4,7 +4,11 @@ android {
     compileSdkVersion 19
     buildToolsVersion "22.0.1"
 
-    sourceSets {
+    lintOptions {
+        abortOnError false
+    }
+
+sourceSets {
         main {
             assets.srcDirs       = ['assets']
             res.srcDirs          = ['res']
